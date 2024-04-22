@@ -13,26 +13,28 @@ body, html {
 	justify-content: center;
 	background: #1C1C1C;
 }
+
 .wrapper {
   display: flex;
 	width: 90%;
 	justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 600px;
 }
 
 .card {
   width: calc(20% - 20px);
-    height: 360px;
-    border: solid 3px #272727;
-    border-radius: 19px;
-    padding: 1.5rem;
-    background: white;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    transition: 0.4s ease-out;
-    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+  height: 360px;
+  border: solid 3px #272727;
+  border-radius: 19px;
+  padding: 1rem;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
   
 .card:hover {
